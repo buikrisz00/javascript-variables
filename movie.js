@@ -91,8 +91,21 @@ myProfile.following = [
         "numOfFollowers" : 55894948
     }
 ];
-//2 more
-
+myProfile.numberOfFriends = 2;
+myProfile.signupYear = 2010;
 
 
 /* My facebook profile end */
+
+/* Modelling something start */
+
+let myApartman = new Object();
+
+myApartman.address = "Valamilyen utca 16.";
+myApartman.numberOfRooms = 3;
+myApartman.residents = 2;
+myApartman.ifRented = true;
+
+console.log(myApartman.address)
+
+/* Modelling something end */
